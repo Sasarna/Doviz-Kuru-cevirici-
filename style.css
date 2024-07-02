@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1.2rem;
+    padding: 1.4ex;
+    gap: 15px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+}
+
+#line {
+    width: 100%;
+    height: 2px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-bottom: 12px;
+}
+
+input, select {
+    border-radius: 13px;
+    border: 2px black solid;
+    height: 30px;
+    width: 80px;
+    border: 1px solid gray;
+} 
